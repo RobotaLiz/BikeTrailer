@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320936717903",
+    "project_id": "bikeridesmap",
+    "storage_bucket": "bikeridesmap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320936717903:android:57c7e6d573976a705a443a",
+        "android_client_info": {
+          "package_name": "com.example.bikeridesmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320936717903-bnfc9k9dr8t30pge703hlu5cpfs9ba5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz31Axq3lD8QiyjZXMpguPhyf-mwQIcfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320936717903-bnfc9k9dr8t30pge703hlu5cpfs9ba5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
