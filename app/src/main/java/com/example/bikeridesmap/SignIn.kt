@@ -25,8 +25,8 @@ class SignIn : AppCompatActivity() {
         personName = findViewById(R.id.PersonNameEditText)
         passWord = findViewById(R.id.PasswordEditText)
 
-        val BackButtonONsignIn = findViewById<Button>(R.id.BackSignINbutton)
-        BackButtonONsignIn.setOnClickListener {
+        val backButtonOnsignIn = findViewById<Button>(R.id.BackSignINbutton)
+        backButtonOnsignIn.setOnClickListener {
             val intent = Intent(this,MainActivity::class.java )
             startActivity(intent)
         }

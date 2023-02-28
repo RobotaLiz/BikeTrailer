@@ -47,7 +47,7 @@ class RecylerAdapter(val context : Context,val list : MutableList<AddedPlaceFrom
         return viewHolder(itemView)
     }
 
-    // den räknar alla rutor i en lista.
+    // den räknar alla rutor i en lista så lång som den är.
     override fun getItemCount() = list.size
 
     // sätter listan för recycler Adaptern.

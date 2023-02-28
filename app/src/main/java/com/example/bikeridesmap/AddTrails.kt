@@ -3,6 +3,7 @@ package com.example.bikeridesmap
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -49,7 +50,7 @@ class AddTrails : AppCompatActivity() {
                         Toast.makeText(this, "You added a new trail!", Toast.LENGTH_LONG).show()
                        val intent = Intent(this, holeMenu::class.java)
                         startActivity(intent)
-                    }
+                    }.addOnFailureListener { bajs ->  Log.d("!!!", bajs.toString())}
             }
 
         }

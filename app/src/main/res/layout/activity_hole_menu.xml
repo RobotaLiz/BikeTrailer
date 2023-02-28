@@ -13,51 +13,41 @@
         android:layout_height="947dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421"
+        app:layout_constraintVertical_bias="0.388"
         app:srcCompat="@drawable/moon" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/HoleMapActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
-        android:clickable="true"
-        app:backgroundTint="#FFEB3B"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_dialog_map" />
 
     <Button
         android:id="@+id/ListOfTrailsbutton"
-        android:layout_width="188dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
         android:text="List Of Trails"
-        app:layout_constraintStart_toEndOf="@+id/HoleMapActionButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/AddTrailsbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/AddTrailsbutton"
-        android:layout_width="188dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
         android:text="Add Trails"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/HoleMapActionButton" />
+        app:layout_constraintBottom_toTopOf="@+id/LogOutbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/LogOutbutton"
-        android:layout_width="188dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="536dp"
         android:text="Log out"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AddTrailsbutton" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

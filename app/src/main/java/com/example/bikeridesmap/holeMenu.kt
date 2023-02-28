@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ActionMenuView
 import android.widget.Button
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class holeMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,10 +29,8 @@ class holeMenu : AppCompatActivity() {
             intent = Intent(this, MainActivity::class.java )
             startActivity(intent)
         }
-        val holeMapActionButton = findViewById<Button>(R.id.HoleMapActionButton)
 
-        holeMapActionButton.setOnClickListener {
 
         }
     }
-}
+

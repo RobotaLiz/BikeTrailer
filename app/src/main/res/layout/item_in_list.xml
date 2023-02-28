@@ -11,8 +11,8 @@
         android:id="@+id/nametextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="28dp"
         android:text="TextView"
         android:textAlignment="textStart"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,8 +22,8 @@
         android:id="@+id/lengthView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="25dp"
         android:text="TextView"
         android:textAlignment="textEnd"
         app:layout_constraintEnd_toStartOf="@+id/difficultyView"
@@ -31,26 +31,35 @@
 
     <ImageButton
         android:id="@+id/mapItemButton"
-        android:layout_width="36dp"
-        android:layout_height="30dp"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
         android:layout_marginTop="9dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="1dp"
         android:backgroundTint="#FD9702"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111"
         app:srcCompat="@drawable/ic_baseline_map_24" />
 
     <TextView
         android:id="@+id/difficultyView"
         android:layout_width="35dp"
         android:layout_height="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
         android:text="100.0"
         android:textAlignment="textEnd"
         app:layout_constraintEnd_toStartOf="@+id/mapItemButton"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ImageOfTrail"
+        android:layout_width="81dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rule" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
